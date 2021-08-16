@@ -1,0 +1,64 @@
+{
+  "name": "simple-hooks",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.0",
+    "classnames": "^2.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "yarn storybook",
+    "start:app": "cross-env PORT=9070 react-scripts start PORT=9070",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9060"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "*",
+    "@storybook/addon-knobs": "^6.3.0",
+    "@storybook/addon-notes": "*",
+    "@storybook/addon-options": "*",
+    "@storybook/react": "*",
+    "cross-env": "^7.0.3",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "markdown-loader": "^6.0.0",
+    "prettier": "^2.3.2",
+    "ts-loader": "8.0.14",
+    "ts-node": "9.1.1"
+  }
+}
